@@ -134,6 +134,7 @@ fun MainScreen(viewModel: SupplyFlowViewModel) {
                         Triple(AppNavTab.CREATIVE_STUDIO, Icons.Default.AutoAwesome, "Studio"),
                         Triple(AppNavTab.INVENTORY, Icons.Default.Inventory2, "Stock"),
                         Triple(AppNavTab.ORDERS, Icons.Default.LocalShipping, "Orders"),
+                        Triple(AppNavTab.INQUIRY, Icons.Default.SupportAgent, "Contact"),
                         Triple(AppNavTab.AUTH_PROFILE, Icons.Default.AccountCircle, "Account")
                     )
 
@@ -165,6 +166,7 @@ fun MainScreen(viewModel: SupplyFlowViewModel) {
                 AppNavTab.CREATIVE_STUDIO -> CreativeStudioScreen(viewModel = viewModel)
                 AppNavTab.INVENTORY -> InventoryScreen(viewModel = viewModel)
                 AppNavTab.ORDERS -> OrdersScreen(viewModel = viewModel)
+                AppNavTab.INQUIRY -> InquiryScreen(viewModel = viewModel)
                 AppNavTab.AUTH_PROFILE -> ProfileAuthScreen(viewModel = viewModel)
             }
         }

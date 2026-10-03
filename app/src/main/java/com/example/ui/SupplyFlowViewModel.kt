@@ -33,6 +33,7 @@ enum class AppNavTab(val label: String) {
     CREATIVE_STUDIO("Studio"),
     INVENTORY("Inventory"),
     ORDERS("Orders"),
+    INQUIRY("Contact"),
     AUTH_PROFILE("Account")
 }
 
