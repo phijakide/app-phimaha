@@ -1,0 +1,6 @@
+{
+  "name": "SupplyFlow",
+  "description": "AI-Powered Supply Chain & E-Commerce Operations with Gemini Video Understanding, Audio Transcription & Deep Reasoning",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
